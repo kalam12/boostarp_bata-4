@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta:400,900');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-family: 'Simonetta', cursive;
+}
+
+body{
+
+ font-family: 'Simonetta', cursive;
+  font-size: 14px;
+  line-height: 1.8;
+  box-sizing: border-box;
+  margin-top: 95px;
+}
+/* nav bar */
+.max-viewport{
+  min-height: 100vh;
+}
+.transparent{
+  background-color: rgba(175, 75, 76, 0.7)!important;
+}
+#banner,
+#contract,
+#social{
+  background: linear-gradient(rgb(139, 69, 19, 0.6),rgb(139, 69, 19, 0.6));
+  background-image: url(../img/apolllo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
